@@ -42,6 +42,7 @@ ul{
 .card {
   background-color: white;
   padding: 10px;
+  width: 700px; 
   margin: 10px auto;
   border-radius:5px;
   border: 1px solid #EAEAEA;
