@@ -1,0 +1,80 @@
+body {
+  font-family: arial;
+  background-color: #F0F0F0;
+  color: #3C486B;
+  padding: 50px;
+  text-align:center
+}
+h1,h2,h3 {
+  font-family: verdana;
+  color: #070A52 ;
+}
+li{
+  display: inline;
+}
+ul{
+  padding: 0;
+}
+#jumpn_url{
+  text-decoration: none;
+  color: #fcfbfb;
+  Font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  border-radius:5px;
+  object-fit: cover;
+  border: 1px solid #070A52;
+  background-color: #070A52;
+  padding: 5px;
+  width: 200px;
+}
+#jumpn_url:hover{
+  color: #F9D949;
+}
+.social_media_icons:hover{
+  color: #F9D949;
+}
+#profile-pic{
+  width: 200px;
+  height:200px;
+  border-radius:50%;
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius:5px;
+  border: 1px solid #EAEAEA;
+  object-fit: cover;
+  box-shadow: 1px 1px 1px 1px #3C486B;
+}
+.social_media_icons{
+  text-decoration: none;
+  color: #F45050;
+  Font-size: 45px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+#container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  #container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  #container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  #container {
+    width: 300px;
+  }
+}
