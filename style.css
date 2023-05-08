@@ -1,13 +1,21 @@
 body {
-  font-family: arial;
-  background-color: #F0F0F0;
+  font-family: 'verdana';
+  background: linear-gradient(45deg, #F45050, #070A52);
   color: #3C486B;
   padding: 50px;
   text-align:center
 }
 h1,h2,h3 {
-  font-family: verdana;
+  font-family: 'Montserrat';
   color: #070A52 ;
+  font-weight: 400;
+  font-size: 35px;
+}
+p {
+  font-family: 'arial';
+  font-weight: 600;
+  color: #3C486B;
+  text-align:center
 }
 li{
   display: inline;
@@ -15,21 +23,20 @@ li{
 ul{
   padding: 0;
 }
-#jumpn_url{
+#jumpn_url {
   text-decoration: none;
   color: #fcfbfb;
-  Font-size: 18px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #F45050, #070A52);
   font-weight: bold;
   transition: 0.3s ease;
-  border-radius:5px;
+  border-radius: 5px;
   object-fit: cover;
-  border: 1px solid #070A52;
-  background-color: #070A52;
-  padding: 5px;
+  padding: 10px;
   width: 200px;
 }
 #jumpn_url:hover{
-  color: #F9D949;
+  background: #F9D949;
 }
 .social_media_icons:hover{
   color: #F9D949;
@@ -41,8 +48,19 @@ ul{
 }
 .card {
   background-color: white;
-  padding: 10px;
-  width: 700px; 
+  padding: 30px;
+  width: 700px;
+  margin: 10px auto;
+  border-radius:5px;
+  border: 1px solid #EAEAEA;
+  object-fit: cover;
+  box-shadow: 1px 1px 1px 1px #3C486B;
+}
+
+.card_social_media {
+  background-color: white;
+  padding: 30px;
+  width: 250px;
   margin: 10px auto;
   border-radius:5px;
   border: 1px solid #EAEAEA;
@@ -52,13 +70,14 @@ ul{
 .social_media_icons{
   text-decoration: none;
   color: #F45050;
-  Font-size: 45px;
+  Font-size: 60px;
   font-weight: bold;
   transition: 0.3s ease;
+  padding: 5px
 }
 
 #container{
-  width: 700px;
+  width: 850px;
   margin: 0 auto;
 }
 
